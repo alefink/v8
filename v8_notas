@@ -1,12 +1,3 @@
-Santifink@@1999
-
-
-
-
-
-
-
-
 Probar asi
 g++ -I. -Iinclude samples/hello-world.cc -o hello_world -fno-rtti -lv8_monolith -lv8_libbase -lv8_libplatform -ldl -Lout.gn/x64.release.sample/obj/ -pthread -std=c++17 Hola Ben, debes agregar - DV8_COMPRES_POINTERS a tus indicadores de compilación. El sábado, 24 de octubre de 2020, 19:06 -DV8_COMPRES_POINTERS
 
